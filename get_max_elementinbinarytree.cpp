@@ -1,4 +1,4 @@
-// find the size of the binary tree
+// find Max Element in the binary tree
 #include <bits/stdc++.h>
 using namespace std;
 class node
