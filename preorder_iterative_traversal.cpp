@@ -15,6 +15,10 @@ public:
 };
 void preorder(node *root)
 {
+    if(root==NULL){
+        cout<<0;
+        return;
+    }
     vector<int> v;
     stack<node *> st;
     st.push(root);
